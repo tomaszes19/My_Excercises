@@ -1,0 +1,35 @@
+# %% Ćwiczenie 16.9 2 - unifi
+
+text = """Python – język programowania wysokiego poziomu
+ogólnego przeznaczenia, o rozbudowanym pakiecie bibliotek
+standardowych, którego ideą przewodnią jest czytelność i
+klarowność kodu źródłowego."""
+
+text_new = []
+
+word = str()
+
+for letter in text:
+    if letter.isalpha() == True:
+        word += letter
+    else:
+        text_new.append(word)
+        word = str()
+            
+text_new_2 = []
+
+for word in text_new:
+    if word != '':
+        text_new_2.append(word)
+    else:
+        next
+        
+text_new_3 = []        
+
+for word in text_new_2:
+    if len(word) > 10:
+        text_new_3.append(word)
+    else:
+        next
+        
+print(text_new_3) 
